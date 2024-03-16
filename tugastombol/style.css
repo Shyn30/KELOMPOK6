@@ -1,53 +1,55 @@
-*,
-html,
-body {
-  margin: 0;
+* {
   padding: 0;
+  margin: 0;
 }
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
-    color: black;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  color: black;
 }
-.dark{
-    background-color: black;;
-    color: white;
+.dark {
+  background-color: black;
+  color: white;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   /* width: 100vh; */
   height: 50vh;
 }
-.button{
+.button {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.button button{
+.button button {
   background-color: yellow;
   height: 50px;
 }
-.button button :hover{
+.button button :hover {
   background-color: red;
   color: white;
 }
-.button a{
-font-weight: bold;
-padding: 1rem;
+.button a {
+  font-weight: bold;
+  padding: 1rem;
 }
 
-nav a {
-  color: white;
-  padding: 10px;
-  text-decoration: none;
-  font-weight: 700;
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 39vh;
+  background-color: rgb(196, 183, 183);
+  height: auto;
 }
-
-nav a:hover{
-    background-color: blue;
-    cursor: pointer;
-    transition: 0.5s;
+.footer p {
+  color: black;
+}
+.footer p a {
+  font-weight: bold;
 }
