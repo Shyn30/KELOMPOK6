@@ -1,2 +1,4 @@
-# MatkulWeb1
-Repository untuk tugas-tugas kuliah Web
+# Kelompok 6
+Anggota:
+  1. Muhammad Fatih Wadjo
+  2. Pratama Galang Widodo
