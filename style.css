@@ -1,56 +1,41 @@
-body {
-  background-color: rgb(75, 67, 67);
-  color: #000;
-  padding: 0;
-  margin: 0;
-  /* background-size: 100vh; */
-}
-.dark-mode {
-    background-color: #eeeeee; /* Warna latar belakang untuk mode gelap */
-    color: #000000; /* Warna teks untuk mode gelap */
+*, html, body{
+    padding: 0;
+    margin: 0;
 }
 
-/* .container{
-    padding-left: 5rem;
-    padding-right: 5rem;
+.navbar .navbarnav{
+    transition: 3s;
+}
+
+
+/* hero style */
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #EEF5FF;
+
+}
+/* img{
+    padding-left: 10em;
+    margin-right: -10em;
 } */
 
-/* #isi{
-    
+/* hero style end */
+
+#projects {
+    padding-top: 5rem;
+    background-color: #EEF5FF;
+}
+
+/* .footer{
+    background-color: #7C93C3;
+    padding-top: 2rem;
 } */
-/* #deskripsi{
-    background-color: aqua;
-} */
 
-/* #deskripsi2 {
-    background-color: red;
-} */
-.container  {
-    display: flex;
-
-} 
-#container {
-    background-color: rgb(153, 163, 163);
-    width: 35rem;
-    border-radius: 20px;
-
+section {
+    padding-top: 5rem;
 }
 
-.photo  {
-    flex: 1;
-    margin-right: 20px;
-    margin-left: 10px;
-}
-
-.photo img  {
-    height: 15rem;
-}
-
-.description h2 {
-    font-size: 1.5em;
-    margin-top: 0;
-}
-
-.description p {
-    font-size: 1em;
+#contact{
+    /* margin-top: 2rem; */
+    background-color: #EEF5FF;
 }
