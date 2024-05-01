@@ -12,7 +12,7 @@ a {
 }
 .medsos ul li {
     color: white;
-    margin: 20px 137px;
+    margin: 20px 112px;
     display: inline-block ;
 
     
@@ -122,4 +122,11 @@ footer{
     background-color: #333;
     color: #fff;
     text-align: center;
+}
+
+.containerlogo{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center;
+    text-align: center; */
 }
