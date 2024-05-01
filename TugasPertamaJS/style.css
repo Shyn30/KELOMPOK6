@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(75, 67, 67);
+  color: #000;
+  padding: 0;
+  margin: 0;
+  /* background-size: 100vh; */
+}
+.dark-mode {
+    background-color: #eeeeee; /* Warna latar belakang untuk mode gelap */
+    color: #000000; /* Warna teks untuk mode gelap */
+}
+
+/* .container{
+    padding-left: 5rem;
+    padding-right: 5rem;
+} */
+
+/* #isi{
+    
+} */
+/* #deskripsi{
+    background-color: aqua;
+} */
+
+/* #deskripsi2 {
+    background-color: red;
+} */
+.container  {
+    display: flex;
+
+} 
+#container {
+    background-color: rgb(153, 163, 163);
+    width: 35rem;
+    border-radius: 20px;
+
+}
+
+.photo  {
+    flex: 1;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.photo img  {
+    height: 15rem;
+}
+
+.description h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.description p {
+    font-size: 1em;
+}
